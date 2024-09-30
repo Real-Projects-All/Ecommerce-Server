@@ -31,7 +31,9 @@ userSchema.statics.findOneOrCreateFromGoogle = async function (profile: any) {
       name: displayName,
     });
 
-    await user.save;
+    console.log("user", user);
+
+    await user.save();
   }
 
   return user;
