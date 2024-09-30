@@ -56,6 +56,8 @@ export const googleCallback = (req: Request, res: Response) => {
   logger.info(`User logged in via Google: ${(req.user as IUser).email}`);
   const token = generateToken(req.user);
 
+  console.log("user token", token);
+
   res.cookie("jwt", token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",

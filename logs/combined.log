@@ -212,3 +212,5 @@
 {"level":"info","message":"Incoming request: GET /api/v1/auth/google/callback?code=4%2F0AVG7fiR-zSsnDihVnMPVjeDvGIw1r0ipjUP1VngeeMwUOO7dOkDmYsJMCg7Oc-erySqtWg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent","timestamp":"2024-09-30 19:35:48"}
 {"level":"info","message":"Server running on port: 4000","timestamp":"2024-09-30 19:39:48"}
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2024-09-30 19:39:48"}
+{"level":"info","message":"Server running on port: 4000","timestamp":"2024-09-30 23:51:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2024-09-30 23:51:15"}
