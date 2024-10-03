@@ -62,7 +62,7 @@ export const googleCallback = (req: Request, res: Response) => {
     maxAge: ms(process.env.EXPIRETIME as string),
   });
 
-  res.redirect("/");
+  res.redirect(process.env.FRONTEND_URL as string);
 };
 
 export const logout = (req: Request, res: Response) => {
